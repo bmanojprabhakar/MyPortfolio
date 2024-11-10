@@ -3,12 +3,12 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  list-style: none;
+  /* list-style: none; */
 }
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #5d36c8;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -24,7 +24,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #c98737;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -467,28 +467,16 @@ section {
   width: 60%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+.about-stats .progress-bars .progress-bar .progress-con .progress .proficient {
   width: 95%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .expert {
+  width: 80%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .beginner {
+  width: 20%;
 }
 
 .stat-title {
@@ -786,6 +774,14 @@ section {
 .contact-content-con .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
+}
+
+.contact-info {
+  margin-top: 40px; 
+}
+
+.contact-info .contact-item {
+  margin-bottom: 10px;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item {
