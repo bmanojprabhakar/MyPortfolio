@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Prabhakar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">MP</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Manoj Prabhakar</h1>
+            <div class="typing-container">
+                <h2>Engineering Manager</h2>
+            </div>
+            <p><span class="exp-years">14+</span> years of experience leading backend engineering teams and delivering
+                scalable, cloud-native platforms
+            </p>
+            <div class="cta-buttons">
+                <a href="ManojPrabhakar_SA.pdf" class="btn btn-primary" download>Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+            <div class="stats-section">
+                <div class="stat-item">
+                    <div class="stat-number exp-years-stat" data-target="14">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="13">0</div>
+                    <div class="stat-label">Teams Led</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="10">0</div>
+                    <div class="stat-label">Million $ Saved</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Staff-level technical leader with <b><span class="exp-years">14+</span> years of experience</b>
+                        building and scaling and
+                        cloud-native platforms while <b>leading and mentoring engineering teams</b>. Known for owning
+                        <b>end-to-end technical responsibility</b> from architecture and system design to delivery and
+                        production reliability across complex, business-critical domains. <br><br>Experienced in
+                        <b>Java, Spring Boot, microservices, AWS, and Kubernetes</b>, with a strong track record of
+                        solving hard engineering problems, modernizing legacy systems, and translating business needs
+                        into scalable technical solutions. Brings a balanced approach that combines deep hands-on
+                        expertise with people leadership and execution discipline.
+                    </p>
+
+                    <div class="experience-highlights">
+                        <h3>Key Expertise</h3>
+                        <div class="highlight-list">
+                            <div class="highlight-point">
+                                <i class="fas fa-check-circle"></i>
+                                <span>System Design & Architecture Ownership</span>
+                            </div>
+                            <div class="highlight-point">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Technical Leadership & Mentoring</span>
+                            </div>
+                            <div class="highlight-point">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Backend & Cloud-Native Platform Engineering</span>
+                            </div>
+                            <div class="highlight-point">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Distributed Systems & Scalability</span>
+                            </div>
+                            <div class="highlight-point">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Delivery Execution & Cross-Functional Collaboration</span>
+                            </div>
+                            <div class="highlight-point">
+                                <i class="fas fa-check-circle"></i>
+                                <span>DevOps, Observability & Production Readiness</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-group">
+                        <h4>Backend & Platform Engineering</h4>
+                        <p>Java, Spring Boot, REST APIs, Microservices</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>System Design & Architecture</h4>
+                        <p>Distributed Systems, Scalability, Design Trade-offs</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Cloud & Infrastructure</h4>
+                        <p>AWS (Compute, Networking, Storage), Kubernetes, CI/CD</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Reliability & Production Engineering</h4>
+                        <p>Observability, Logging, Monitoring, Performance Tuning</p>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Automation & Tooling</h4>
+                        <p>Python, Scripting, Developer Productivity Tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Engineering Manager / Chapter Lead</h3>
+                        <p class="company">Standard Chartered Bank</p>
+                        <p class="date">Sep 2025 – Present</p>
+                        <ul>
+                            <li>Leading a backend engineering chapter (8 engineers), responsible for
+                                people management, technical excellence, and delivery execution</li>
+                            <li>Acting as technical line manager, mentoring engineers on system design, clean
+                                architecture, and production-grade engineering</li>
+                            <li>Partnering with Product Owners and stakeholders to estimate large initiatives, form
+                                squads, and drive predictable delivery</li>
+                            <li>Providing hands-on architectural guidance, design reviews, and technical unblocking
+                                across distributed systems</li>
+                            <li>Driving engineering standards around reliability, observability, and long-term
+                                maintainability</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Staff Engineer – Technical Leadership</h3>
+                        <p class="company">AthenaHealth Technology</p>
+                        <p class="date">Jun 2024 – Sep 2025</p>
+                        <ul>
+                            <li>Operated as a Staff-level technical leader, owning architecture, delivery, and
+                                production stability across multiple backend teams</li>
+                            <li>Led redesign of core rule-engine architecture, improving modularity and enabling faster
+                                business change</li>
+                            <li>Solved performance and scalability challenges through Elasticsearch-based optimizations
+                            </li>
+                            <li>Owned release planning and production rollouts for business-critical healthcare systems
+                            </li>
+                            <li>Mentored engineers on system design, trade-offs, and distributed systems thinking</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Lead Engineer – Platform & Cloud Engineering</h3>
+                        <p class="company">Comcast | Vonage </p>
+                        <p class="date">Aug 2020 – Jun 2024</p>
+                        <ul>
+                            <li>Designed and delivered scalable backend and platform services across telecom and
+                                enterprise SaaS domains</li>
+                            <li>Drove platform modernization initiatives, migrating legacy systems to cloud-native,
+                                Spring-based architectures</li>
+                            <li>Built and automated Kubernetes-based processing pipelines, reducing operational overhead
+                                and improving reliability</li>
+                            <li>Designed and implemented AWS serverless components to support event-driven workflows
+                            </li>
+                            <li>Mentored engineers on clean code, system design, and scalable architecture patterns</li>
+                            <li>Supported enterprise onboarding through technical POCs, demos, and architecture
+                                discussions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Early Career – Software Engineering</h3>
+                        <p class="company">Infosys | Cognizant | TCS</p>
+                        <p class="date">2011 – 2020</p>
+                        <ul>
+                            <li>Built and modernized enterprise systems across telecom, logistics, and payments domains
+                            </li>
+                            <li>Led monolith-to-microservices migrations and performance optimization initiatives</li>
+                            <li>Developed strong foundations in backend engineering, system design, and delivery
+                                execution</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>Microservices E-Commerce Platform</h3>
+                        <a href="https://github.com/bmanojprabhakar" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Scalable microservices architecture using Spring Boot, Docker, and Kubernetes with event-driven
+                        communication.</p>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Kubernetes</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>Cloud-Native API Gateway</h3>
+                        <a href="https://github.com/bmanojprabhakar" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>High-performance API Gateway with rate limiting, authentication, and service discovery using
+                        Spring Cloud.</p>
+                    <div class="tech-stack">
+                        <span>Spring Cloud</span>
+                        <span>AWS</span>
+                        <span>Redis</span>
+                        <span>JWT</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>Real-time Data Processing Pipeline</h3>
+                        <a href="https://github.com/bmanojprabhakar" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Distributed data processing system using Apache Kafka, Spark, and Elasticsearch for real-time
+                        analytics.</p>
+                    <div class="tech-stack">
+                        <span>Apache Kafka</span>
+                        <span>Spark</span>
+                        <span>Elasticsearch</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>DevOps Automation Suite</h3>
+                        <a href="https://github.com/bmanojprabhakar" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Complete CI/CD pipeline with infrastructure as code, automated testing, and deployment
+                        orchestration.</p>
+                    <div class="tech-stack">
+                        <span>Jenkins</span>
+                        <span>Terraform</span>
+                        <span>Ansible</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>Healthcare Data Platform</h3>
+                        <a href="https://github.com/bmanojprabhakar" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>HIPAA-compliant healthcare data platform with secure APIs, patient management, and analytics
+                        dashboard.</p>
+                    <div class="tech-stack">
+                        <span>Spring Boot</span>
+                        <span>PostgreSQL</span>
+                        <span>Angular</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>AI-Powered Code Review System</h3>
+                        <a href="https://github.com/bmanojprabhakar" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Intelligent code review system using machine learning to detect code smells, security
+                        vulnerabilities, and performance issues.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>FastAPI</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <div class="resume-card">
+                    <div class="resume-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <!-- <h3>Resume</h3> -->
+                    <p>Get a comprehensive overview of my professional experience, technical skills, and achievements in
+                        a detailed PDF format.</p>
+                    <div class="resume-details">
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Updated: January 2026</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Format: PDF</span>
+                        </div>
+                        <!-- <div class="detail-item">
+                            <i class="fas fa-download"></i>
+                            <span>Size: 2.1 MB</span>
+                        </div> -->
+                    </div>
+                    <div class="resume-actions">
+                        <a href="ManojPrabhakar_SA.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                        <a href="ManojPrabhakar_SA.pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i>
+                            View Online
+                        </a>
+                    </div>
+                </div>
+
+                <div class="resume-highlights">
+                    <h3>Resume Highlights</h3>
+                    <div class="highlight-grid">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Professional Experience</h4>
+                                <p><span class="exp-years">14+</span> years across banking, healthcare, telecom, and
+                                    enterprise SaaS domains</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Technical Expertise</h4>
+                                <p>Java, Spring Boot, Microservices, AWS, Kubernetes, System Design</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Leadership</h4>
+                                <p>Led and mentored engineering teams of 10+ members across complex domains</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Achievements</h4>
+                                <p>$10M+ cost savings, system modernization, architecture leadership</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="medium" class="medium">
+        <div class="container">
+            <h2>My Articles</h2>
+            <div class="medium-grid">
+                <div class="medium-card">
+                    <i class="fab fa-medium"></i>
+                    <h3>Web Security 101</h3>
+                    <p>Understanding and Defending Against CSRF Attacks</p>
+                    <a href="https://medium.com/@bmanojprabhakar/️-web-security-101-understanding-and-defending-against-csrf-attacks-da7a0fd270b3"
+                        class="btn" target="_blank">Read on Medium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:bmanojprabhakar@gmail.com">bmanojprabhakar@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p><a href="tel:+919965510390">+91 99655 10390</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p><a href="https://www.linkedin.com/in/bmanojprabhakar/">LinkedIn</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/bmanojprabhakar">GitHub</a></p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" id="from_name" name="from_name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="spinner"></span>
+                    </button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+                <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Manoj Prabhakar. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://x.com/bmanojprabhakar"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/bmanojprabhakar/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/bmanojprabhakar"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
